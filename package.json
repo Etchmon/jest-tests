@@ -1,0 +1,27 @@
+{
+  "name": "jest-tests",
+  "version": "1.0.0",
+  "description": "An assortment of jest-tests and functions",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Etchmon/jest-tests.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Etchmon/jest-tests/issues"
+  },
+  "homepage": "https://github.com/Etchmon/jest-tests#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.11",
+    "jest": "^27.5.1"
+  }
+}
