@@ -1,3 +1,6 @@
 function reverseString(string) {
-    return string.charAt(0).toUpperCaser();
+    if (string === '') return;
+    return string.split('').reverse().join('');
 };
+
+export default reverseString;
