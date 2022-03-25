@@ -1,7 +1,7 @@
 const CeasarCipher = (() => {
     const alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'];
 
-    const shift = 1
+    const shift = 1;
 
     const cipherLetter = (letter) => {
         if (letter === ' ') return ' ';
@@ -12,14 +12,14 @@ const CeasarCipher = (() => {
     const coded = (string) => {
         const arr = string.split('')
         console.log(arr);
-        const newArr = []
+        const newArr = [];
 
         arr.forEach(letter => {
             let cipherL = cipherLetter(letter);
             newArr.push(cipherL);
         });
 
-        return newArr.join('')
+        return newArr.join('');
     }
 
     return { coded };
